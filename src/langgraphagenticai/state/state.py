@@ -7,5 +7,5 @@ class State(TypedDict):
     """
     Represents the state of the LangGraph Agentic AI application.
     """
-    message: Annotated[List,add_messages]
+    messages: Annotated[List,add_messages]
     
